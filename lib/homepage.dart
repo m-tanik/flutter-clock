@@ -109,6 +109,10 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ],
                         ),
+                        Text(
+                          'UTC ' + offsetSign + timezoneString,
+                          style: TextStyle(color: Colors.white, fontSize: 24.0),
+                        ),
                       ],
                     ),
                   ),
