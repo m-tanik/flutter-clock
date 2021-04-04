@@ -1,6 +1,8 @@
 import 'package:clock_app/enums.dart';
 
 import 'menu_info.dart';
+import 'alarm_info.dart';
+import 'theme.dart';
 
 List<MenuInfo> menuItems = [
   MenuInfo(
@@ -23,4 +25,19 @@ List<MenuInfo> menuItems = [
     title: 'Timer',
     imageSource: 'assets/timer.png',
   ),
+];
+
+List<AlarmInfo> alarms = [
+  AlarmInfo(
+      DateTime.now().add(
+        Duration(hours: 1),
+      ),
+      description: 'Office',
+      gradientColor: GradientColors.mango),
+  AlarmInfo(
+      DateTime.now().add(
+        Duration(hours: 2),
+      ),
+      description: 'Sport',
+      gradientColor: GradientColors.sea),
 ];

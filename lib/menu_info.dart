@@ -1,6 +1,5 @@
 import 'package:clock_app/enums.dart';
 import 'package:flutter/foundation.dart';
-import 'package:provider/provider.dart';
 
 class MenuInfo extends ChangeNotifier {
   MenuType menuType;
